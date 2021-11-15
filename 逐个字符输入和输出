@@ -1,0 +1,25 @@
+#include<stdio.h>
+
+int main(int argc,char*argv[])
+
+{
+
+    char s[7];
+
+    int i;
+
+    printf("请输入一个字符串:\n");
+
+    for(i=0;i<7;i++)
+
+    scanf("%c",&s[i]);
+
+    printf("输出该字符串:\n");
+
+    for(i=0;i<7;i++)
+
+    printf("%c",s[i]);
+
+    return 0;
+
+}
